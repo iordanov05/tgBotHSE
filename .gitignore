@@ -1,0 +1,56 @@
+# .gitignore
+.DS_Store
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+#Json
+credentials.json
+
+# Pylint
+pylint.log
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*.log
+
+# VS Code settings
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Python egg files
+*.egg
+.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# Local configuration files
+*.local
+
+# Docker files
+docker-compose*.yml
+docker-compose*.yaml
+Dockerfile
+
